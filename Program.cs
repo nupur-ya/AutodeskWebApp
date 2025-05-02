@@ -1,7 +1,14 @@
+using AutodeskWebApp.Models.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Inject DBContext
+builder.Services.AddDbContext<DriverData>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DriverPortal")));
 
 var app = builder.Build();
 

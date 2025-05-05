@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Edit Driver";
+}
+
+@model AutodeskWebApp.Models.Data.Driver
+
+<h1>@ViewData["Title"]</h1>
+@if (Model == null)
+{
+    <p>Driver not found.</p>
+}
+else
+{
+    <form method="post" asp-action="EditDriver">
+        <div class="mt-4">  
+            <label class="form-label">Id</label>
+            <input type="text" class="form-control" placeholder="Enter Driver Name" asp-for="Id" readonly="readonly" >
+
+        </div>
+
+        <div class="mt-4">  
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Driver Name" asp-for="Name" >
+
+        </div>
+
+        <div class="mt-4">  
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" placeholder="Enter Email" asp-for="Email" >
+
+        </div>
+
+        <div class="mt-4">  
+            <label class="form-label">Phone</label>
+            <input type="text" class="form-control" placeholder="Enter Phone Number" asp-for="Phone" >
+
+        </div>
+
+        <div class="mt-4">  
+            <label class="form-label">Team</label>
+            <input type="text" class="form-control" placeholder="Enter Team Name" asp-for="Team" >
+
+        </div>
+
+        <div class="mt-4">  
+            <label class="form-label">Home Country</label>
+            <input type="text" class="form-control" placeholder="Enter Home Country" asp-for="HomeCountry" >
+
+        </div>
+
+        <div class="mt-4">  
+            <input type="checkbox" class="form-check-input" id="IsRacingThisYear" asp-for="IsRacingThisYear" value="true" />
+            <label class="form-check-label">Racing This Year</label>
+        </div>
+
+
+        <div class="mt-4">  
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Reset</button> 
+            <button type="button" class="btn btn-primary">Cancel</button>
+
+        </div>
+    </form>
+}

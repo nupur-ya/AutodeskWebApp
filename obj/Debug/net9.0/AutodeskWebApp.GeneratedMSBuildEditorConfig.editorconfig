@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGREcml2ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/nupur/Desktop/Assessment/AutodeskWebApp/Views/Home/DriverList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ecml2ZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nupur/Desktop/Assessment/AutodeskWebApp/Views/Home/EditDriver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FZGl0RHJpdmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nupur/Desktop/Assessment/AutodeskWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -50,6 +50,59 @@ public class HomeController : Controller
             return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
+    public async Task<IActionResult> DriverList()
+    {
+        var drivers = await dbcontext.Drivers.ToListAsync();
+        return View(drivers);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> EditDriver(Guid id)
+    {
+        var driver = await dbcontext.Drivers.FindAsync(id);
+        Debug.Assert(driver != null, "Driver not found in the database.");
+        if (driver == null)
+        {
+            return NotFound();
+        }
+        return View(driver);
+    }
+    [HttpPost]
+    public async Task<IActionResult> EditDriver(Driver driver)
+    {
+        var existingDriver = await dbcontext.Drivers.FindAsync(driver.Id);
+        if (existingDriver == null)
+        {
+            return NotFound();
+        }
+        // Update the existing driver properties with the new values
+        existingDriver.Name = driver.Name;
+        existingDriver.Email = driver.Email;
+        existingDriver.Phone = driver.Phone;
+        existingDriver.Team = driver.Team;
+        existingDriver.HomeCountry = driver.HomeCountry;
+        existingDriver.IsRacingThisYear = driver.IsRacingThisYear;
+
+        // Save the changes to the database
+        await dbcontext.SaveChangesAsync();
+
+        // Redirect to the driver list page after editing
+        return RedirectToAction("DriverList", "Home");
+    }
+    [HttpPost]
+    public async Task<IActionResult> DeleteDriver(Guid id)
+    {
+        var driver = await dbcontext.Drivers.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+        if (driver == null)
+        {
+            return NotFound();
+        }
+
+        dbcontext.Drivers.Remove(driver);
+        await dbcontext.SaveChangesAsync();
+
+        return RedirectToAction("DriverList", "Home");
+    }
    
 
     public IActionResult Index()

@@ -1,0 +1,37 @@
+@model List<AutodeskWebApp.Models.Data.Driver>
+
+<h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Driver ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Team</th>
+                <th>Home Country</th>
+                <th>Racing This Year</th>
+
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var driver in Model)
+            {
+                <tr>
+                    <td>@driver.Id</td>
+                    <td>@driver.Name</td>
+                    <td>@driver.Email</td>
+                    <td>@driver.Phone</td>
+                    <td>@driver.Team</td>
+                    <td>@driver.HomeCountry</td>
+                    <td>@driver.IsRacingThisYear</td>
+
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Home" asp-action="EditDriver" asp-route-id="@driver.Id">Edit</a> |
+                        <a class="btn btn-danger ms-3" asp-controller="Home" asp-action="DeleteDriver" asp-route-id="@driver.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+    </table>
+</h1>

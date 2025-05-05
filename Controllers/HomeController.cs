@@ -40,9 +40,9 @@ public class HomeController : Controller
 
             await dbcontext.Drivers.AddAsync(driverObj);
             await dbcontext.SaveChangesAsync(); // Save changes to the database
-
-            Console.WriteLine(driver.Name);
-            return View();
+            
+            // Redirect to the driver list page after editing
+            return RedirectToAction("DriverList", "Home");
         }
         catch (Exception ex)
         {

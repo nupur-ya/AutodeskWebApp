@@ -14,7 +14,7 @@ else
     <form method="post" asp-action="EditDriver">
         <div class="mt-4">  
             <label class="form-label">Id</label>
-            <input type="text" class="form-control" placeholder="Enter Driver Name" asp-for="Id" readonly="readonly" >
+            <input type="text" disabled class="form-control" placeholder="Enter Driver Name" asp-for="Id" >
 
         </div>
 
@@ -58,7 +58,11 @@ else
             <button type="submit" class="btn btn-primary">Submit</button>
             <button type="reset" class="btn btn-primary">Reset</button>
             <button type="button" class="btn btn-primary" onclick="window.history.back();">Cancel</button>
-
         </div>
     </form>
+
+    <form asp-controller="Home" asp-action="DeleteDriver" asp-route-id="@Model.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this driver?');" style="margin-top: 20px;">
+    <button type="submit" class="btn btn-danger">Delete Driver</button>
+    </form>
+
 }

@@ -1,4 +1,8 @@
 @model List<AutodeskWebApp.Models.Data.Driver>
+<head>
+    <link rel="stylesheet" href="~/css/DriverList.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/Font.css" asp-append-version="true"/>
+</head>
 
 <h1>
     <table>
@@ -11,7 +15,6 @@
                 <th>Team</th>
                 <th>Home Country</th>
                 <th>Racing This Year</th>
-
                 <th> </th>
             </tr>
         </thead>
@@ -28,8 +31,7 @@
                     <td>@driver.IsRacingThisYear</td>
 
                     <td>
-                        <a class="btn btn-primary" asp-controller="Home" asp-action="EditDriver" asp-route-id="@driver.Id">Edit</a> |
-                        <a class="btn btn-danger ms-3" asp-controller="Home" asp-action="DeleteDriver" asp-route-id="@driver.Id">Delete</a>
+                        <a class="btn btn-primary" asp-controller="Home" asp-action="EditDriver" asp-route-id="@driver.Id">Edit</a>
                     </td>
                 </tr>
             }

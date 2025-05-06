@@ -2,7 +2,15 @@
   "Files": [
     {
       "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets/AutodeskWebApp.ovgmp9y05q.bundle.scp.css"
+      "PackagePath": "staticwebassets/AutodeskWebApp.gynlu52x3j.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "PackagePath": "staticwebassets/css/DriverList.css"
+    },
+    {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "PackagePath": "staticwebassets/css/Font.css"
     },
     {
       "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css",
@@ -11,6 +19,18 @@
     {
       "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Bold.otf"
+    },
+    {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Regular.otf"
+    },
+    {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Wide.otf"
     },
     {
       "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/js/site.js",

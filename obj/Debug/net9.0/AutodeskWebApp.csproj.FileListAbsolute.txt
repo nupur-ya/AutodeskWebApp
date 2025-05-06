@@ -115,7 +115,6 @@
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/bundle/AutodeskWebApp.styles.css
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/z4g9auwz01-61n19gt1b8.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/ib0cs5qoql-xtxxf3hu2r.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/yvnophx6pr-bqjiyaj88i.gz
@@ -177,8 +176,6 @@
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/fwyeqacqld-muycvpuwrr.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/it5gzcukd8-87fc7y1x7t.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4fy99qeyfc-mlv21k5csn.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/staticwebassets.build.json
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/staticwebassets.development.json
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -325,3 +322,11 @@
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz

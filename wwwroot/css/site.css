@@ -1,7 +1,18 @@
 html {
   font-size: 14px;
 }
-
+@font-face {
+	font-family: 'FormulaOneFont-Regular';
+	src: url('/fonts/FormulaOneFonts/Formula1-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FormulaOneFont-Bold';
+	src: url('/fonts/FormulaOneFonts/Formula1-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'FormulaOneFont-Wide';
+	src: url('/fonts/FormulaOneFonts/Formula1-Wide.otf') format('opentype');
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -12,6 +23,12 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+
+.btn:hover, .btn-primary:hover{
+  background-color: gray;
+  color: white;  
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -19,6 +36,7 @@ html {
 
 body {
   margin-bottom: 60px;
+	font-family: 'FormulaOneFont-Regular', sans-serif;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -29,3 +47,4 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+

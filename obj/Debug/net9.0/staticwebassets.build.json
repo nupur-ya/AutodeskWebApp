@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "veKDhQRl4lJQIfRszLx0kH6llKCxEclWzUlweIzopkI=",
+  "Hash": "zXBNTMaED7MQKjJra4Y/PU99rzl5XLochKikSinwCn4=",
   "Source": "AutodeskWebApp",
   "BasePath": "_content/AutodeskWebApp",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Wide#[.{fingerprint=8slk1fx02f}]?.otf.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "oj3mmb7jwh",
+      "Integrity": "dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf"
     },
     {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/1pbw8hnce3-c2oey78nd0.gz",
@@ -311,12 +332,12 @@
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz",
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz",
       "SourceId": "AutodeskWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AutodeskWebApp",
-      "RelativePath": "AutodeskWebApp#[.{fingerprint=ovgmp9y05q}]!.bundle.scp.css.gz",
+      "RelativePath": "AutodeskWebApp#[.{fingerprint=gynlu52x3j}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -325,19 +346,19 @@
       "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rfdj5wpg1a",
-      "Integrity": "x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=",
+      "Fingerprint": "kas1c2cxi3",
+      "Integrity": "fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz",
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz",
       "SourceId": "AutodeskWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AutodeskWebApp",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=25at0a8eyr}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -346,8 +367,8 @@
       "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pw5l7j5n1s",
-      "Integrity": "KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=",
+      "Fingerprint": "hjg99ypysv",
+      "Integrity": "/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css"
@@ -519,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "css/DriverList#[.{fingerprint=186n34syuj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fs0i129958",
+      "Integrity": "gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css"
     },
     {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/alf7iw9m9t-ttgo8qnofa.gz",
@@ -773,12 +815,33 @@
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz",
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Regular#[.{fingerprint=ke0p80yvzg}]?.otf.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zi5xrebs2x",
+      "Integrity": "xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz",
       "SourceId": "AutodeskWebApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/AutodeskWebApp",
-      "RelativePath": "AutodeskWebApp#[.{fingerprint=ovgmp9y05q}]?.styles.css.gz",
+      "RelativePath": "AutodeskWebApp#[.{fingerprint=gynlu52x3j}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -787,8 +850,8 @@
       "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/bundle/AutodeskWebApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rfdj5wpg1a",
-      "Integrity": "x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=",
+      "Fingerprint": "kas1c2cxi3",
+      "Integrity": "fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/bundle/AutodeskWebApp.styles.css"
@@ -897,6 +960,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "css/Font#[.{fingerprint=5ipweew5fc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css"
     },
     {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/kpjotm44ty-nvvlpmu67g.gz",
@@ -1256,6 +1340,27 @@
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Bold#[.{fingerprint=0nci5tcnjn}]?.otf.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "b2isf7rswr",
+      "Integrity": "c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf"
+    },
+    {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/xs1fcf487s-356vix0kms.gz",
       "SourceId": "AutodeskWebApp",
       "SourceType": "Discovered",
@@ -1375,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "ovgmp9y05q",
-      "Integrity": "DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=",
+      "Fingerprint": "gynlu52x3j",
+      "Integrity": "iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/bundle/AutodeskWebApp.styles.css"
@@ -1396,11 +1501,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ovgmp9y05q",
-      "Integrity": "DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=",
+      "Fingerprint": "gynlu52x3j",
+      "Integrity": "iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "css/DriverList#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "186n34syuj",
+      "Integrity": "QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/DriverList.css"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "css/Font#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Font.css"
     },
     {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css",
@@ -1417,8 +1564,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "25at0a8eyr",
+      "Integrity": "lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1443,6 +1590,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Bold#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0nci5tcnjn",
+      "Integrity": "fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Regular#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ke0p80yvzg",
+      "Integrity": "TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf"
+    },
+    {
+      "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "SourceId": "AutodeskWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/",
+      "BasePath": "_content/AutodeskWebApp",
+      "RelativePath": "fonts/FormulaOneFonts/Formula1-Wide#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8slk1fx02f",
+      "Integrity": "SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf"
     },
     {
       "Identity": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/js/site.js",
@@ -2729,12 +2939,12 @@
   "Endpoints": [
     {
       "Route": "AutodeskWebApp.bundle.scp.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001851851852"
+          "Quality": "0.001618122977"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2954,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2982,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "W/\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
@@ -2793,7 +3003,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1083"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -2801,11 +3011,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,13 +3025,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
       "Route": "AutodeskWebApp.bundle.scp.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2830,7 +3040,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -2838,11 +3048,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,18 +3070,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ="
+          "Value": "sha256-fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.bundle.scp.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz",
+      "Route": "AutodeskWebApp.gynlu52x3j.bundle.scp.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001851851852"
+          "Quality": "0.001618122977"
         }
       ],
       "ResponseHeaders": [
@@ -2881,15 +3091,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2909,13 +3119,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "W/\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -2923,12 +3133,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.bundle.scp.css",
+      "Route": "AutodeskWebApp.gynlu52x3j.bundle.scp.css",
       "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2938,7 +3148,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1083"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -2946,11 +3156,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +3170,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -2968,13 +3178,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.bundle.scp.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ovgmp9y05q.gz",
+      "Route": "AutodeskWebApp.gynlu52x3j.bundle.scp.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +3193,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -2991,11 +3201,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +3223,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -3021,18 +3231,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ="
+          "Value": "sha256-fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.styles.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz",
+      "Route": "AutodeskWebApp.gynlu52x3j.styles.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001851851852"
+          "Quality": "0.001618122977"
         }
       ],
       "ResponseHeaders": [
@@ -3042,15 +3252,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3070,13 +3280,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "W/\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -3084,12 +3294,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.styles.css",
+      "Route": "AutodeskWebApp.gynlu52x3j.styles.css",
       "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/bundle/AutodeskWebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3099,7 +3309,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1083"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -3107,11 +3317,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3121,7 +3331,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -3129,13 +3339,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
-      "Route": "AutodeskWebApp.ovgmp9y05q.styles.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz",
+      "Route": "AutodeskWebApp.gynlu52x3j.styles.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3144,7 +3354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -3152,11 +3362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3174,7 +3384,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovgmp9y05q"
+          "Value": "gynlu52x3j"
         },
         {
           "Name": "label",
@@ -3182,18 +3392,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ="
+          "Value": "sha256-fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE="
         }
       ]
     },
     {
       "Route": "AutodeskWebApp.styles.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001851851852"
+          "Quality": "0.001618122977"
         }
       ],
       "ResponseHeaders": [
@@ -3203,15 +3413,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3231,13 +3441,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "W/\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
@@ -3252,7 +3462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1083"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -3260,11 +3470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY=\""
+          "Value": "\"iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3274,13 +3484,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DGSy8GT22lmQPubNCu7Lv+13ssdly3DEZEpNLHKYgiY="
+          "Value": "sha256-iN6YrN6r7+pG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="
         }
       ]
     },
     {
       "Route": "AutodeskWebApp.styles.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ovgmp9y05q.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3289,7 +3499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "539"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -3297,11 +3507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ=\""
+          "Value": "\"fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:50:18 GMT"
+          "Value": "Mon, 05 May 2025 19:56:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3319,18 +3529,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x/935aVTUBk8BNZ86csmwPtOjGHzm9jpmFNcSE5nFyQ="
+          "Value": "sha256-fBmjQlCV4qZxgwIJSW3+AEQVOiB//iCHtpIKncWMxCE="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz",
+      "Route": "css/DriverList.186n34syuj.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002518891688"
         }
       ],
       "ResponseHeaders": [
@@ -3340,15 +3550,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "396"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3368,13 +3578,609 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "186n34syuj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DriverList.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="
+        }
+      ]
+    },
+    {
+      "Route": "css/DriverList.186n34syuj.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "186n34syuj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DriverList.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="
+        }
+      ]
+    },
+    {
+      "Route": "css/DriverList.186n34syuj.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "186n34syuj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DriverList.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/DriverList.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002518891688"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="
+        }
+      ]
+    },
+    {
+      "Route": "css/DriverList.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="
+        }
+      ]
+    },
+    {
+      "Route": "css/DriverList.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXKno9dh+17rgA9E6SMwgMqdoBRcm8zexjey1qCZb9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.5ipweew5fc.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Font.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.5ipweew5fc.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Font.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.5ipweew5fc.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Font.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Font.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:16:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.25at0a8eyr.css",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002298850575"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "434"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25at0a8eyr"
         },
         {
           "Name": "label",
@@ -3382,12 +4188,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.25at0a8eyr.css",
       "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +4203,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1114"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +4211,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +4225,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "25at0a8eyr"
         },
         {
           "Name": "label",
@@ -3427,13 +4233,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz",
+      "Route": "css/site.25at0a8eyr.css.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +4248,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "434"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +4256,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +4278,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "25at0a8eyr"
         },
         {
           "Name": "label",
@@ -3480,18 +4286,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002298850575"
         }
       ],
       "ResponseHeaders": [
@@ -3501,15 +4307,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "434"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3529,13 +4335,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="
         }
       ]
     },
@@ -3550,7 +4356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "1114"
         },
         {
           "Name": "Content-Type",
@@ -3558,11 +4364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3572,13 +4378,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-b9sayid5wm.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,7 +4393,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "434"
         },
         {
           "Name": "Content-Type",
@@ -3595,11 +4401,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 17:49:49 GMT"
+          "Value": "Mon, 05 May 2025 19:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3617,7 +4423,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-/Tz8Gr3/tE5ZHsardHDBD2Abe3avuZfzMdu3/SWzT18="
         }
       ]
     },
@@ -3916,6 +4722,900 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.0nci5tcnjn.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028102518"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nci5tcnjn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Bold.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.0nci5tcnjn.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nci5tcnjn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Bold.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.0nci5tcnjn.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nci5tcnjn"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Bold.otf.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028102518"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fEmddcXT3cU7tHC5/EvXUaWI7Q0ZhfANPrNHU49mPMM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Bold.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+Wg6mY41blGAQAlIupvJwvAZKTMZkJdF1YpWRNR5IM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.ke0p80yvzg.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029015785"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34463"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke0p80yvzg"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Regular.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.ke0p80yvzg.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke0p80yvzg"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Regular.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.ke0p80yvzg.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ke0p80yvzg"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Regular.otf.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029015785"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34463"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLbbkCjRiaFPKYKvKdre52Tz41UnmpLAi1q9/ViKkqI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Regular.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcIke/Gb397JA2yI+EFwmyxnni9BKSoNE/dL5hAN4O8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.8slk1fx02f.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025475111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39253"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8slk1fx02f"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Wide.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.8slk1fx02f.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8slk1fx02f"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Wide.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.8slk1fx02f.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8slk1fx02f"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/FormulaOneFonts/Formula1-Wide.otf.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000025475111"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39253"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/FormulaOneFonts/Formula1-Wide.otf.gz",
+      "AssetFile": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Jun 2018 13:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dM003FwL0FdKO1v7ExE7YcfEF2cGbCmxHwCOK8Y/rvw="
         }
       ]
     },

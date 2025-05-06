@@ -1,0 +1,36 @@
+table {
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 100%;
+	word-wrap: break-word;
+  }
+  
+   td, th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	max-width: 200px;
+	overflow-wrap: break-word;
+	font-size: clamp(12px, 1.5vw, 16px);
+  }
+  
+   tr:nth-child(even){background-color: #f2f2f2;}
+  
+   tr:hover {background-color: #ddd;}
+
+   td {
+	font-family: 'FormulaOneFont-Regular', sans-serif;
+   }
+  
+   th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: red;
+	color: white;
+	font-family: 'FormulaOneFont-Bold';
+  }
+
+  .btn-primary{
+	background-color: black;
+	color: white;
+  }

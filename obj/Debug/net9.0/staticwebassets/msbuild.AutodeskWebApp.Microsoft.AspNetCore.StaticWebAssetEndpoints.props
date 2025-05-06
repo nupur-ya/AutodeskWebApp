@@ -1,52 +1,52 @@
 ﻿<Project>
   <ItemGroup>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/AutodeskWebApp.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AutodeskWebApp.gynlu52x3j.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AutodeskWebApp.ixflk46s1r.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iN6YrN6r7\u002BpG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iN6YrN6r7\u002BpG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:56:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5scAnRLhk89rLPMLNLA3FMpn5\u002BXr17pHWk1czpbJyYg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1563"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225scAnRLhk89rLPMLNLA3FMpn5\u002BXr17pHWk1czpbJyYg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 22:07:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/AutodeskWebApp.gynlu52x3j.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AutodeskWebApp.gynlu52x3j.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/AutodeskWebApp.ixflk46s1r.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AutodeskWebApp.ixflk46s1r.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gynlu52x3j"},{"Name":"integrity","Value":"sha256-iN6YrN6r7\u002BpG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw="},{"Name":"label","Value":"_content/AutodeskWebApp/AutodeskWebApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iN6YrN6r7\u002BpG4j/XopwrplPeq1AVhp/ZY8PQNFEM4Xw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:56:50 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/DriverList.186n34syuj.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\DriverList.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"186n34syuj"},{"Name":"integrity","Value":"sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="},{"Name":"label","Value":"_content/AutodeskWebApp/css/DriverList.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:09:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ixflk46s1r"},{"Name":"integrity","Value":"sha256-5scAnRLhk89rLPMLNLA3FMpn5\u002BXr17pHWk1czpbJyYg="},{"Name":"label","Value":"_content/AutodeskWebApp/AutodeskWebApp.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1563"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225scAnRLhk89rLPMLNLA3FMpn5\u002BXr17pHWk1czpbJyYg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 22:07:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/DriverList.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\DriverList.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QTLczhC4Iv8nLoDeUP6ZLonsbNAetmjQVMedcNVe8G0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:09:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QGdNAfFOvYHvbkQSPYUxtv3mVk2pglBlSGuWN91HSzs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"559"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QGdNAfFOvYHvbkQSPYUxtv3mVk2pglBlSGuWN91HSzs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 03:24:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/Font.5ipweew5fc.css">
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/DriverList.kfdvv9kjan.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\DriverList.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kfdvv9kjan"},{"Name":"integrity","Value":"sha256-QGdNAfFOvYHvbkQSPYUxtv3mVk2pglBlSGuWN91HSzs="},{"Name":"label","Value":"_content/AutodeskWebApp/css/DriverList.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"559"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QGdNAfFOvYHvbkQSPYUxtv3mVk2pglBlSGuWN91HSzs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 03:24:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/Font.1k0ugx0547.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Font.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/AutodeskWebApp/css/Font.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:16:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1k0ugx0547"},{"Name":"integrity","Value":"sha256-UdJ18rKavklhgYXRbmtmsUvHVnX3lMteMSYvCVXyWUw="},{"Name":"label","Value":"_content/AutodeskWebApp/css/Font.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"383"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UdJ18rKavklhgYXRbmtmsUvHVnX3lMteMSYvCVXyWUw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 03:24:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/Font.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Font.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:16:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UdJ18rKavklhgYXRbmtmsUvHVnX3lMteMSYvCVXyWUw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"383"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UdJ18rKavklhgYXRbmtmsUvHVnX3lMteMSYvCVXyWUw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 03:24:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/site.25at0a8eyr.css">
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/site.0751hikwm3.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"25at0a8eyr"},{"Name":"integrity","Value":"sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="},{"Name":"label","Value":"_content/AutodeskWebApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1114"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:46:09 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0751hikwm3"},{"Name":"integrity","Value":"sha256-jEm7nXVuZkMZ69Ty0zfKEjiMrXEQvLH46TJPRvqY8wY="},{"Name":"label","Value":"_content/AutodeskWebApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1204"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jEm7nXVuZkMZ69Ty0zfKEjiMrXEQvLH46TJPRvqY8wY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:46:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1114"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lkDtahsHI6g25dvQHqQzYqxxpCFIlAQcHicBWaZvEeM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 19:46:09 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jEm7nXVuZkMZ69Ty0zfKEjiMrXEQvLH46TJPRvqY8wY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1204"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jEm7nXVuZkMZ69Ty0zfKEjiMrXEQvLH46TJPRvqY8wY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:46:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -95,6 +95,66 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"93744"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022SPiGkpxmIupkLU/Vi/PvBOumCNg9Er4oFQJN5ID/cvc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Jun 2018 13:40:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/f1-2025-wallpapers-4-2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f1-2025-wallpapers-4-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oIivoBsHPFIScxMYgTY1Lc4zzt8Rv9ztDgpXEKpEwSQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"231024"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oIivoBsHPFIScxMYgTY1Lc4zzt8Rv9ztDgpXEKpEwSQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:25:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/f1-2025-wallpapers-4-2.oa6jauy5jq.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f1-2025-wallpapers-4-2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oa6jauy5jq"},{"Name":"integrity","Value":"sha256-oIivoBsHPFIScxMYgTY1Lc4zzt8Rv9ztDgpXEKpEwSQ="},{"Name":"label","Value":"_content/AutodeskWebApp/images/f1-2025-wallpapers-4-2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231024"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oIivoBsHPFIScxMYgTY1Lc4zzt8Rv9ztDgpXEKpEwSQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:25:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/f1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L/5rNmrf4NY2hYshh2\u002Bi0ddelyKFlLnmYf9dTlKVtJ0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1119175"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L/5rNmrf4NY2hYshh2\u002Bi0ddelyKFlLnmYf9dTlKVtJ0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:28:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/f1.zj252sn7hz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zj252sn7hz"},{"Name":"integrity","Value":"sha256-L/5rNmrf4NY2hYshh2\u002Bi0ddelyKFlLnmYf9dTlKVtJ0="},{"Name":"label","Value":"_content/AutodeskWebApp/images/f1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1119175"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L/5rNmrf4NY2hYshh2\u002Bi0ddelyKFlLnmYf9dTlKVtJ0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:28:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/ferrari.ih5p5k1wp4.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ferrari.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ih5p5k1wp4"},{"Name":"integrity","Value":"sha256-Bu3mBD985LIlpy07kzQiP68EnY6YL15rsyW\u002BduFX4l0="},{"Name":"label","Value":"_content/AutodeskWebApp/images/ferrari.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62179"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bu3mBD985LIlpy07kzQiP68EnY6YL15rsyW\u002BduFX4l0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:26:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/ferrari.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ferrari.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Bu3mBD985LIlpy07kzQiP68EnY6YL15rsyW\u002BduFX4l0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62179"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Bu3mBD985LIlpy07kzQiP68EnY6YL15rsyW\u002BduFX4l0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:26:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/lewis.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\lewis.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G7Kq3HJvGNzyOD6AFwYLgF7MP6xP8SwLFCEv6e20Ofw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"220227"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022G7Kq3HJvGNzyOD6AFwYLgF7MP6xP8SwLFCEv6e20Ofw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:27:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/lewis.x1e77hkmxo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\lewis.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x1e77hkmxo"},{"Name":"integrity","Value":"sha256-G7Kq3HJvGNzyOD6AFwYLgF7MP6xP8SwLFCEv6e20Ofw="},{"Name":"label","Value":"_content/AutodeskWebApp/images/lewis.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"220227"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022G7Kq3HJvGNzyOD6AFwYLgF7MP6xP8SwLFCEv6e20Ofw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:27:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/mcl_39_1920x1080.ajs6audjuz.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\mcl_39_1920x1080.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ajs6audjuz"},{"Name":"integrity","Value":"sha256-9udwyt6AtMBIuhKRCOtknJ\u002BYdRkujwW\u002BC9D6dqPciys="},{"Name":"label","Value":"_content/AutodeskWebApp/images/mcl_39_1920x1080.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2198937"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229udwyt6AtMBIuhKRCOtknJ\u002BYdRkujwW\u002BC9D6dqPciys=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:25:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/images/mcl_39_1920x1080.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\mcl_39_1920x1080.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9udwyt6AtMBIuhKRCOtknJ\u002BYdRkujwW\u002BC9D6dqPciys="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2198937"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229udwyt6AtMBIuhKRCOtknJ\u002BYdRkujwW\u002BC9D6dqPciys=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 21:25:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AutodeskWebApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

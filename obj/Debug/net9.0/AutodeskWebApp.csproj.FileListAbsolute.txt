@@ -325,8 +325,12 @@
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/x8akggbc7w-0nci5tcnjn.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hal5debd05-ke0p80yvzg.gz
 /Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/0rnl5l9pyq-8slk1fx02f.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-186n34syuj.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-5ipweew5fc.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-25at0a8eyr.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-gynlu52x3j.gz
-/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-gynlu52x3j.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/MySqlConnector.dll
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/5260nff81i-0751hikwm3.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/hemevs5n3e-ixflk46s1r.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/4ueui9osvo-ixflk46s1r.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/a1fnmutmwo-kfdvv9kjan.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/compressed/jxrdiordo3-1k0ugx0547.gz
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/System.Net.Http.Formatting.dll
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/nupur/Desktop/Assessment/AutodeskWebApp/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll

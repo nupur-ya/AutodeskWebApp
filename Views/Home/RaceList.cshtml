@@ -1,0 +1,46 @@
+@model List<AutodeskWebApp.Models.Data.Race>
+<head>
+    <link rel="stylesheet" href="~/css/DriverList.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/Font.css" asp-append-version="true"/>
+</head>
+
+<h1>
+    <h6 class="text-center mt-4">
+        <form asp-controller="Home" asp-action="RaceList" method="get">
+            <label for="startDate">From:</label>
+            <input type="date" id="startDate" name="startDate">
+            <label for="endDate">To:</label>
+            <input type="date" id="endDate" name="endDate">
+            
+            <button type="submit">Filter</button>
+        </form>
+    </h6>
+
+    <table class="mt-4">
+        <thead>
+            <tr>
+                <th>Circuit Name</th>
+                <th>Country</th>
+                <th>Session</th>
+                <th>Session Type</th>
+                <th>Location</th>
+                <th>From</th>
+                <th>To</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var race in Model)
+            {
+                <tr>
+                    <td>@race.circuit_short_name</td>
+                    <td>@race.country_name</td>
+                    <td>@race.session_name</td>
+                    <td>@race.session_type</td>
+                    <td>@race.location</td>
+                    <td>@race.date_start</td>
+                    <td>@race.date_end</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</h1>

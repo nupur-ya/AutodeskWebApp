@@ -4,6 +4,15 @@
 <html style="background-image: url('@Url.Content("~/images/f1.jpg")'); background-size: 100% 100%;">
     <div class="text-center">
         <h1 class="display-4">Welcome</h1>
+        <form asp-controller="Home" asp-action="RaceList" method="get">
+            <label>Get Race Data</label>    
+            <label for="startDate">From:</label>
+            <input type="date" id="startDate" name="startDate">
+            <label for="endDate">To:</label>
+            <input type="date" id="endDate" name="endDate">
+            
+            <button type="submit">Filter</button>
+        </form>
         <p></p>
     </div>
 </html>

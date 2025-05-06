@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using AutodeskWebApp.Models;
 using AutodeskWebApp.Models.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Formatting;
 
 namespace AutodeskWebApp.Controllers;
 
@@ -10,6 +11,8 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly DriverData dbcontext;
+    public List<Race> race;
+    private HttpClient client = new HttpClient();
 
     public HomeController(DriverData context)
     {
@@ -67,6 +70,7 @@ public class HomeController : Controller
         }
         return View(driver);
     }
+
     [HttpPost]
     public async Task<IActionResult> EditDriver(Driver driver)
     {
@@ -89,6 +93,7 @@ public class HomeController : Controller
         // Redirect to the driver list page after editing
         return RedirectToAction("DriverList", "Home");
     }
+
     [HttpPost]
     public async Task<IActionResult> DeleteDriver(Guid id)
     {
@@ -104,6 +109,45 @@ public class HomeController : Controller
         return RedirectToAction("DriverList", "Home");
     }
    
+   [HttpGet]
+   public async Task<IActionResult> RaceList(DateOnly? startDate, DateOnly? endDate)
+   {   
+        try
+        {
+            // Validate date
+            if (startDate == null) startDate = DateOnly.MinValue;
+            if (endDate == null) endDate = DateOnly.FromDateTime(DateTime.Now);
+
+            if (startDate > endDate)
+            {
+                Console.WriteLine("Start date must be before end date.");
+                return View("Error", new ErrorViewModel { ErrorMessage = "Start date must be before end date." });
+            }
+            
+            // Setup URL
+            var raceListUrl = $"https://api.openf1.org/v1/sessions?date_start%3E%3D{startDate}&date_end%3C%3D{endDate}";
+            
+            HttpResponseMessage response = await client.GetAsync(raceListUrl);
+        
+            // Validate response
+            if (response.IsSuccessStatusCode)
+            {
+                race = await response.Content.ReadAsAsync<List<Race>>();
+            }
+            else{
+                Console.WriteLine($"Error: {response.StatusCode}");
+                return View("Error", new ErrorViewModel { ErrorMessage = $"Error: {response.StatusCode}" });
+            }
+            
+            return View(race);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+   }
 
     public IActionResult Index()
     {

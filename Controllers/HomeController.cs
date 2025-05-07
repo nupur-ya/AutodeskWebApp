@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using AutodeskWebApp.Models;
 using AutodeskWebApp.Models.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Net.Http.Formatting;
 
 namespace AutodeskWebApp.Controllers;
 
@@ -168,7 +167,6 @@ public class HomeController : Controller
         return View();
     }
 
-    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

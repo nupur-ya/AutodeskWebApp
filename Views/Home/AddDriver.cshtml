@@ -3,7 +3,11 @@
 }
 
 @model AutodeskWebApp.Models.Data.Driver
-
+<style>
+    body {
+        background-color: rgb(21, 21, 21);
+    }
+</style>
 <h1>@ViewData["Title"]</h1>
 
 <form method="post" asp-action="AddDriver">
@@ -39,13 +43,13 @@
 
     <div class="mt-4">  
         <label class="form-label">Image</label>
-        <input type="text" required class="form-control" placeholder="Enter Home Country" asp-for="ImageUrl" maxlength="3000">
+        <input type="text" required class="form-control" placeholder="Enter Headshot URL" asp-for="ImageUrl" maxlength="3000">
 
     </div>
 
     <div class="mt-4">  
         <label class="form-label">Driver Number</label>
-        <input type="number" required class="form-control" placeholder="Enter Home Country" asp-for="DriverNumber">
+        <input type="number" required class="form-control" placeholder="Enter Driver Number" asp-for="DriverNumber">
 
     </div>
 

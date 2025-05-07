@@ -54,7 +54,3 @@ label, h1 {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
-
-.add-driver-divs{
-  color: black;
-}

@@ -8,7 +8,7 @@ table {
    td, th {
 	border: 1px solid #ddd;
 	padding: 8px;
-	max-width: 200px;
+	max-width: 250px;
 	overflow-wrap: break-word;
 	font-size: clamp(12px, 1.5vw, 16px);
   }
@@ -33,4 +33,7 @@ table {
 
   .btn-primary{
 	background-color: rgb(40, 38, 38);
+  }
+  .email{
+	text-transform: lowercase;
   }

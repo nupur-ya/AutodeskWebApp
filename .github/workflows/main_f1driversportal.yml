@@ -27,7 +27,7 @@ jobs:
         run: dotnet build AutodeskWebApp/AutodeskWebApp.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -configuration Release --output ./publish
+        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj --output ./publish
 
 
       - name: Upload artifact for deployment job

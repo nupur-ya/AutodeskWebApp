@@ -24,13 +24,13 @@ jobs:
           dotnet-version: '8.x'
 
       - name: dotnet publish
-        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -c Release -o "./publish"
+        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -c Release -o "AutodeskWebApp/bin/Release/net9.0/publish"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ./publish
+          path: AutodeskWebApp/bin/Release/net9.0/publish
 
   deploy:
     runs-on: windows-latest

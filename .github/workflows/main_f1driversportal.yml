@@ -51,9 +51,6 @@ jobs:
         with:
           name: .net-app
           path: ./publish
-          
-      - name: Debug — List contents of publish directory
-        run: dir .\publish /s
 
       - name: Login to Azure
         uses: azure/login@v2

@@ -31,4 +31,6 @@ table {
 	font-family: 'FormulaOneFont-Bold';
   }
 
-  
+  .btn-primary{
+	background-color: rgb(40, 38, 38);
+  }

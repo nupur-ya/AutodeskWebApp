@@ -55,8 +55,6 @@ label, h1 {
   text-align: start;
 }
 
-.welcome-class{
-  justify-content: center;
-  flex-direction: column;
-  color: red;
+.add-driver-divs{
+  color: black;
 }

@@ -64,6 +64,8 @@ public class HomeController : Controller
         if (driverNumber == 0) 
         {
             drivers = await dbcontext.Drivers.ToListAsync();
+            // Sort by driver number
+            drivers = drivers.OrderBy(driver => driver.DriverNumber).ToList();
         }
 
         return View(drivers);
@@ -161,7 +163,7 @@ public class HomeController : Controller
 
    }
 
-    public IActionResult Index()
+   public IActionResult Index()
     {
         return View();
     }
@@ -172,5 +174,59 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> InitDatabase()
+    {   
+            try
+            {
+
+                // Setup URL
+                var raceListUrl = "https://api.openf1.org/v1/drivers";
+                
+                HttpResponseMessage response = await client.GetAsync(raceListUrl);
+            
+                // Validate response
+                if (response.IsSuccessStatusCode)
+                {
+                    var drivers = await response.Content.ReadAsAsync<List<JsonDriverData>>();
+                    foreach (var driver in drivers)
+                    {
+                        if (driver.headshot_url != null)
+                        {
+                            var driverObj = new Driver
+                            {
+                                Id = Guid.NewGuid(), // Generate a new GUID for the driver ID
+                                Name = driver.full_name,
+                                Email = driver.name_acronym + "@" + driver.team_name + ".com",
+                                Phone = driver.session_key.ToString(),
+                                Team = driver.team_name,
+                                HomeCountry = driver.country_code,
+                                IsRacingThisYear = true,
+                                ImageUrl = driver.headshot_url,
+                                DriverNumber = driver.driver_number
+                            };
+
+                            await dbcontext.Drivers.AddAsync(driverObj);
+                            await dbcontext.SaveChangesAsync(); // Save changes to the database}
+                        }
+                        
+                    }
+                        // Redirect to the driver list page after editing
+                        return RedirectToAction("DriverList", "Home");
+                }
+                else{
+                    Console.WriteLine($"Error: {response.StatusCode}");
+                    return View("Error", new ErrorViewModel { ErrorMessage = $"Error: {response.StatusCode}" });
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            }
+
     }
 }

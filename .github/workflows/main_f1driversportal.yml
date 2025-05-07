@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: windows-latest
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read # This is required for actions/checkout
 
     steps:
       - uses: actions/checkout@v4
@@ -23,21 +23,17 @@ jobs:
         with:
           dotnet-version: '8.x'
           
-      - name: Clean project
-        run: dotnet clean AutodeskWebApp/AutodeskWebApp.csproj
-
       - name: Build with dotnet
         run: dotnet build AutodeskWebApp/AutodeskWebApp.csproj --configuration Release
-
+        
       - name: dotnet publish
-        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj --output ./publish
-
+        run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -c Release -o "AutodeskWebApp/bin/Release/net9.0/publish"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ./publish
+          path: AutodeskWebApp/bin/Release/net9.0/publish
 
   deploy:
     runs-on: windows-latest
@@ -45,23 +41,32 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    
+    permissions:
+      id-token: write
+      contents: read
+
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
           path: ./publish
-      - name: Debug publish folder contents
+          
+      - name: List contents of publish directory
         run: |
           echo "Listing contents of ./publish"
           dir ./publish /s
-          
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_0F6927D096B148A7BFA1C2A84B309909 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3DC4AD7ACCA742DFB81EBDCE18D0A0B6 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_6F2F2FA7F50545C5AE4C33957D0AA033 }}
+
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'F1DriversPortal'
-          slot-name: 'Production'
           package: ./publish
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_48881B99E60C4CFCBFA9950874094685 }}

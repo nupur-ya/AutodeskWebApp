@@ -9,6 +9,7 @@ namespace AutodeskWebApp.Models.Data
         }
 
         public DbSet<Driver> Drivers { get; set; } // SQL table name: Drivers
+        public DbSet<Team> Teams { get; set; } // SQL table name: Teams
 
     }
 } 

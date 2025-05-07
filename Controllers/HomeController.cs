@@ -11,6 +11,8 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly DriverData dbcontext;
     public List<Race> race;
+
+    private Dictionary<Guid, string> driverHeadhsotGuids = new Dictionary<Guid, string>();
     private HttpClient client = new HttpClient();
 
     public HomeController(DriverData context)
@@ -56,18 +58,101 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public async Task<IActionResult> DriverList(int driverNumber) // Find driver by driver number
+    public async Task<IActionResult> DriverList(int? driverNumber, Guid? driverId) // Find driver by driver number OR driver ID
     {
-        var drivers = await dbcontext.Drivers.Where(driver => driver.DriverNumber == driverNumber).ToListAsync();
-        // If driver number is not found, return all drivers
-        if (driverNumber == 0) 
+
+        List<Driver> drivers = new List<Driver>();
+
+        try
         {
-            drivers = await dbcontext.Drivers.ToListAsync();
+            // Initialize the dictionary with driver headshot URLs
+            if (driverHeadhsotGuids.Count == 0)
+            {
+                foreach (var driver in await dbcontext.Drivers.ToListAsync())
+                {
+                    driverHeadhsotGuids[driver.Id] = driver.ImageUrl;
+                }
+            }
+
+            // Get driver by driver number
+            if (driverNumber != null)
+            {
+                drivers = await dbcontext.Drivers.Where(driver => driver.DriverNumber == driverNumber).ToListAsync();
+                // If driver number is not found, return all drivers
+                if (driverNumber == 0) 
+                {
+                    drivers = await dbcontext.Drivers.ToListAsync();
+                }
+            }
+            // Get driver by driver ID
+            else if (driverId != null)
+            {
+                drivers = await dbcontext.Drivers.Where(driver => driver.Id == driverId).ToListAsync();
+                // If driver number is not found, return all drivers
+                if (driverId == Guid.Empty) 
+                {
+                    drivers = await dbcontext.Drivers.ToListAsync();
+                }
+            }
+            else
+            {
+                // Get all drivers
+                drivers = await dbcontext.Drivers.ToListAsync();
+            }
+            
             // Sort by driver number
             drivers = drivers.OrderBy(driver => driver.DriverNumber).ToList();
         }
-
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        
         return View(drivers);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> TeamList(int teamRank)
+    {
+        // Initialize the dictionary with driver headshot URLs
+        if (driverHeadhsotGuids.Count == 0)
+        {
+            foreach (var driver in await dbcontext.Drivers.ToListAsync())
+            {
+                driverHeadhsotGuids[driver.Id] = driver.ImageUrl;
+            }
+        }
+
+        
+        List<TeamView> teamViews = [];
+        List<Team> teams = [];
+        teams = teamRank == 0 ? await dbcontext.Teams.ToListAsync() : await dbcontext.Teams.Where(team => team.Rank == teamRank).ToListAsync();
+
+        // Initialize TeamView objects
+        foreach (var team in teams)
+        {
+            var teamView = new TeamView
+            {
+                    Id = team.Id,
+                    Name = team.Name,
+                    Driver1 = driverHeadhsotGuids.TryGetValue(team.Driver1, out string? value) ? value : "Unknown",
+                    Driver1Number = team.Driver1,
+                    Driver2 = driverHeadhsotGuids.TryGetValue(team.Driver2, out string? value1) ? value1 : "Unknown",
+                    Driver2Number = team.Driver2,
+                    TeamChief = team.TeamChief,
+                    CarImageUrl = team.CarImageUrl,
+                    Rank = team.Rank,
+                    PolePositions = team.PolePositions
+            };
+            Console.WriteLine($"Team: {team.CarImageUrl}");
+            teamViews.Add(teamView);
+        }
+
+        // Sort by team ranking
+        teamViews = teamViews.OrderBy(team => team.Rank).ToList();
+
+        return View(teamViews);
     }
 
     [HttpGet]

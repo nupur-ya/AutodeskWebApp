@@ -1,0 +1,64 @@
+@model List<AutodeskWebApp.Models.Data.TeamView>
+<style>
+    body {
+        background-image: url('@Url.Content("~/images/f1.jpg")');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="~/css/DriverList.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/Font.css" asp-append-version="true"/>
+</head>
+
+<!-- 'Find' and 'View All' buttons -->
+<h1>
+   <h6 class="text-center mt-4">
+        <form asp-controller="Home" asp-action="TeamList" method="get"  style="display: inline-block;">
+            <label>Find Team</label>
+            <input type="number" placeholder="Enter Team Rank" id="teamRank" name="teamRank">
+                <button type="submit">Filter</button>
+        </form>
+
+        <form class="ms-10" asp-controller="Home" asp-action="TeamList" method="get"  style="display: inline-block;">
+            <button type="submit">View All</button>
+        </form>
+
+    </h6>
+
+<!-- Teams Table -->
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 400px;">Car</th>
+                <th>Name</th>
+                <th>Driver</th>
+                <th>Driver</th>
+                <th>Team Chief</th>
+                <th>Rank</th>
+                <th>Pole Positions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var team in Model)
+            {
+                <tr>
+                    <td><img src="@team.CarImageUrl" alt="Car" style="width: 400px; height: 100px;"/></td>
+                    <td>@team.Name</td>
+                    
+                    <td><a href="/Home/DriverList?driverId=@team.Driver1Number">
+                    <img src="@team.Driver1" alt="Driver Headshot" style="width: 100px; height: 100px;"/></a></td>
+                    
+                    <td><a href="/Home/DriverList?driverId=@team.Driver2Number">
+                    <img src="@team.Driver2" alt="Driver Headshot" style="width: 100px; height: 100px;"/></a></td>
+                    
+                    <td>@team.TeamChief</td>
+                    <td>@team.Rank</td>
+                    <td>@team.PolePositions</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</h1>

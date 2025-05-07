@@ -9,31 +9,43 @@
 <form method="post" asp-action="AddDriver">
     <div class="mt-4">  
         <label class="form-label">Name</label>
-        <input type="text" class="form-control" placeholder="Enter Driver Name" asp-for="Name" >
+        <input type="text" required class="form-control" placeholder="Enter Driver Name" asp-for="Name" maxlength="100">
 
     </div>
 
     <div class="mt-4">  
         <label class="form-label">Email</label>
-        <input type="text" class="form-control" placeholder="Enter Email" asp-for="Email" >
+        <input type="text" required class="form-control" placeholder="Enter Email" asp-for="Email" maxlength="200">
 
     </div>
 
     <div class="mt-4">  
         <label class="form-label">Phone</label>
-        <input type="text" class="form-control" placeholder="Enter Phone Number" asp-for="Phone" >
+        <input type="number" required class="form-control" placeholder="Enter Phone Number" asp-for="Phone" maxlength="10">
 
     </div>
 
     <div class="mt-4">  
         <label class="form-label">Team</label>
-        <input type="text" class="form-control" placeholder="Enter Team Name" asp-for="Team" >
+        <input type="text" required class="form-control" placeholder="Enter Team Name" asp-for="Team" maxlength="100">
 
     </div>
 
     <div class="mt-4">  
         <label class="form-label">Home Country</label>
-        <input type="text" class="form-control" placeholder="Enter Home Country" asp-for="HomeCountry" >
+        <input type="text" required class="form-control" placeholder="Enter Home Country" asp-for="HomeCountry"  maxlength="100">
+
+    </div>
+
+    <div class="mt-4">  
+        <label class="form-label">Image</label>
+        <input type="text" required class="form-control" placeholder="Enter Home Country" asp-for="ImageUrl" maxlength="3000">
+
+    </div>
+
+    <div class="mt-4">  
+        <label class="form-label">Driver Number</label>
+        <input type="number" required class="form-control" placeholder="Enter Home Country" asp-for="DriverNumber">
 
     </div>
 

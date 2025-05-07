@@ -9,5 +9,7 @@ namespace AutodeskWebApp.Models.Data
         public string Team { get; set; }
         public string HomeCountry { get; set; }
         public bool IsRacingThisYear { get; set; }
+        public string ImageUrl { get; set; }
+        public int DriverNumber { get; set; }
     }
 }

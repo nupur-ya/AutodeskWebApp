@@ -5,13 +5,28 @@
 </head>
 
 <h1>
+   <h6 class="text-center mt-4">
+        <form asp-controller="Home" asp-action="DriverList" method="get"  style="display: inline-block;">
+            <label>Get Driver Data</label>
+            <input type="number" placeholder="Enter Driver Number" id="driverNumber" name="driverNumber">
+                <button type="submit">Filter</button>
+        </form>
+
+        <form class="ms-10" asp-controller="Home" asp-action="DriverList" method="get"  style="display: inline-block;">
+            <button type="submit">View All</button>
+        </form>
+    </h6>
+    
+        
+ 
+
     <table>
         <thead>
             <tr>
-                <th>Driver ID</th>
+                <th>Headshot</th>
                 <th>Name</th>
+                <th>Driver Number</th>
                 <th>Email</th>
-                <th>Phone</th>
                 <th>Team</th>
                 <th>Home Country</th>
                 <th>Racing This Year</th>
@@ -22,10 +37,10 @@
             @foreach (var driver in Model)
             {
                 <tr>
-                    <td>@driver.Id</td>
+                    <td><img src="@driver.ImageUrl" alt="Driver Image" style="width: 100px; height: 100px;" /></td>
                     <td>@driver.Name</td>
+                    <td>@driver.DriverNumber</td>
                     <td>@driver.Email</td>
-                    <td>@driver.Phone</td>
                     <td>@driver.Team</td>
                     <td>@driver.HomeCountry</td>
                     <td>@driver.IsRacingThisYear</td>

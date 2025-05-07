@@ -38,7 +38,9 @@ public class HomeController : Controller
                 Phone = driver.Phone,
                 Team = driver.Team,
                 HomeCountry = driver.HomeCountry,
-                IsRacingThisYear = driver.IsRacingThisYear
+                IsRacingThisYear = driver.IsRacingThisYear,
+                ImageUrl = driver.ImageUrl,
+                DriverNumber = driver.DriverNumber
             };
 
             await dbcontext.Drivers.AddAsync(driverObj);
@@ -53,9 +55,17 @@ public class HomeController : Controller
             return View("Error", new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
-    public async Task<IActionResult> DriverList()
+
+    [HttpGet]
+    public async Task<IActionResult> DriverList(int driverNumber) // Find driver by driver number
     {
-        var drivers = await dbcontext.Drivers.ToListAsync();
+        var drivers = await dbcontext.Drivers.Where(driver => driver.DriverNumber == driverNumber).ToListAsync();
+        // If driver number is not found, return all drivers
+        if (driverNumber == 0) 
+        {
+            drivers = await dbcontext.Drivers.ToListAsync();
+        }
+
         return View(drivers);
     }
 
@@ -86,6 +96,8 @@ public class HomeController : Controller
         existingDriver.Team = driver.Team;
         existingDriver.HomeCountry = driver.HomeCountry;
         existingDriver.IsRacingThisYear = driver.IsRacingThisYear;
+        existingDriver.ImageUrl = driver.ImageUrl;
+        existingDriver.DriverNumber = driver.DriverNumber;
 
         // Save the changes to the database
         await dbcontext.SaveChangesAsync();

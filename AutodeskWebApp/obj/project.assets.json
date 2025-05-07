@@ -4836,6 +4836,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNet.WebApi.Client >= 6.0.0",
+      "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
       "MySqlConnector >= 2.4.0"
@@ -4847,11 +4848,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj",
+      "projectUniqueName": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj",
       "projectName": "AutodeskWebApp",
-      "projectPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj",
+      "projectPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj",
       "packagesPath": "/Users/nupur/.nuget/packages/",
-      "outputPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/",
+      "outputPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nupur/.nuget/NuGet/NuGet.Config"
@@ -4887,6 +4888,10 @@
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.4, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

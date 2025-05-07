@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C4Xct3p4WxA=",
+  "dgSpecHash": "s8cIEADQU6c=",
   "success": true,
-  "projectFilePath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj",
+  "projectFilePath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj",
   "expectedPackageFiles": [
     "/Users/nupur/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/nupur/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj": {}
+    "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj": {}
   },
   "projects": {
-    "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj": {
+    "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj",
+        "projectUniqueName": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj",
         "projectName": "AutodeskWebApp",
-        "projectPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp.csproj",
+        "projectPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/AutodeskWebApp.csproj",
         "packagesPath": "/Users/nupur/.nuget/packages/",
-        "outputPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/",
+        "outputPath": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nupur/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

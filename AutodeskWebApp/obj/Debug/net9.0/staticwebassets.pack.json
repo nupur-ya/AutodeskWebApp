@@ -1,343 +1,303 @@
 {
   "Files": [
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/obj/Debug/net9.0/scopedcss/projectbundle/AutodeskWebApp.bundle.scp.css",
       "PackagePath": "staticwebassets/AutodeskWebApp.26c10pgp9i.bundle.scp.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/DriverList.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/css/DriverList.css",
       "PackagePath": "staticwebassets/css/DriverList.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/Font.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/css/Font.css",
       "PackagePath": "staticwebassets/css/Font.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/css/site.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/favicon.ico",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Bold.otf",
       "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Bold.otf"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Regular.otf",
       "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Regular.otf"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/fonts/FormulaOneFonts/Formula1-Wide.otf",
       "PackagePath": "staticwebassets/fonts/FormulaOneFonts/Formula1-Wide.otf"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/alpine.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/alpine.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/aston-martin.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/aston-martin.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/ferrari.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/ferrari.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/haas.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/haas.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/kick-sauber.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/kick-sauber.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/mclaren.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/mclaren.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/mercedes.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/mercedes.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/racing-bulls.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/racing-bulls.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/red-bull-racing.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/red-bull-racing.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/TeamCars/williams.jpg",
-      "PackagePath": "staticwebassets/images/TeamCars/williams.jpg"
-    },
-    {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/f1-2.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/f1-2.jpg",
       "PackagePath": "staticwebassets/images/f1-2.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/f1-3.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/f1-3.jpg",
       "PackagePath": "staticwebassets/images/f1-3.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/f1.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/f1.jpg",
       "PackagePath": "staticwebassets/images/f1.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/ferrari.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/ferrari.jpg",
       "PackagePath": "staticwebassets/images/ferrari.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/lewis.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/lewis.jpg",
       "PackagePath": "staticwebassets/images/lewis.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/images/mcl.jpg",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/mcl.jpg",
       "PackagePath": "staticwebassets/images/mcl.jpg"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/js/site.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {

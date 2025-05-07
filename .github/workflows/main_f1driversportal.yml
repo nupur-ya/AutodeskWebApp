@@ -22,7 +22,10 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
-
+          
+      - name: Build with dotnet
+        run: dotnet build AutodeskWebApp/AutodeskWebApp.csproj --configuration Release
+        
       - name: dotnet publish
         run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -c Release -o "AutodeskWebApp/bin/Release/net9.0/publish"
 

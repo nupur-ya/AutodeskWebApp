@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutodeskWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+714039bcd937b8c1132fc93ccc2cde28ebcfa68f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86d534bc2a5f6751bf540ab3dbabf653575a85fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutodeskWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutodeskWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

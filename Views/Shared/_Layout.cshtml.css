@@ -1,14 +1,11 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-.container-fluid {
+﻿.container-fluid {
   background-color: red;
   color: white;
 	font-family: 'FormulaOneFont-Bold', sans-serif;
   
 }
 /* header */
-a.navbar-brand {
+a.navbar-brand, body, html{
   background-color: red;
   white-space: normal;
   text-align: center;
@@ -19,11 +16,6 @@ a.navbar-brand {
 .nav-item, div.navbar-collapse, .header, .navbar {
   color: white;
 }
-.nav-item:hover{
-  background-color: green;
-  color: white;
-}
-
 
 .navbar-nav{
   color: white;

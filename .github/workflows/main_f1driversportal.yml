@@ -22,6 +22,9 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+          
+      - name: Clean project
+        run: dotnet clean AutodeskWebApp/AutodeskWebApp.csproj
 
       - name: Build with dotnet
         run: dotnet build AutodeskWebApp/AutodeskWebApp.csproj --configuration Release

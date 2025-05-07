@@ -23,9 +23,6 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Build with dotnet
-        run: dotnet build AutodeskWebApp/AutodeskWebApp.csproj --configuration Release
-
       - name: dotnet publish
         run: dotnet publish AutodeskWebApp/AutodeskWebApp.csproj -c Release -o "./publish"
 

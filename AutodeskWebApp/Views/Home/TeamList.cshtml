@@ -1,12 +1,5 @@
 @model List<AutodeskWebApp.Models.Data.TeamView>
-<style>
-    body {
-        background-image: url('@Url.Content("~/images/f1.jpg")');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-</style>
+
 
 <head>
     <link rel="stylesheet" href="~/css/DriverList.css" asp-append-version="true"/>
@@ -29,7 +22,7 @@
     </h6>
 
 <!-- Teams Table -->
-    <table>
+    <table class="team-table">
         <thead>
             <tr>
                 <th style="width: 400px;">Car</th>

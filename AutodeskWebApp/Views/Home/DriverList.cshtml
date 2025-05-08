@@ -1,19 +1,11 @@
 @model List<AutodeskWebApp.Models.Data.Driver>
-<style>
-    body {
-        background-image: url('@Url.Content("~/images/f1.jpg")');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-</style>
 
 <head>
     <link rel="stylesheet" href="~/css/DriverList.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/css/Font.css" asp-append-version="true"/>
 </head>
 
-<!-- Find and View All buttons >-->
+<!-- 'Find' and 'View All' buttons >-->
 <h1>
    <h6 class="text-center mt-4">
         <form asp-controller="Home" asp-action="DriverList" method="get"  style="display: inline-block;">
@@ -32,7 +24,7 @@
     </h6>
 
 <!-- Drivers Table >-->
-    <table>
+    <table class="driver-table">
         <thead>
             <tr>
                 <th>Headshot</th>

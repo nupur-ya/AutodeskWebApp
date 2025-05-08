@@ -3,18 +3,23 @@
 }
 
 @model AutodeskWebApp.Models.Data.Driver
+<!-- Overwrite background image for this page for better UX >-->
 <style>
     body {
         background-color: rgb(21, 21, 21);
+        background-image: none;
     }
 </style>
+
 <h1>@ViewData["Title"]</h1>
+
 @if (Model == null)
 {
     <p>Driver not found.</p>
 }
 else
 {
+    <!-- Edit Driver Form >-->
     <form method="post" asp-action="EditDriver">
         <div class="mt-4">  
             <label class="form-label">ID</label>
@@ -81,5 +86,4 @@ else
     <form asp-controller="Home" asp-action="DeleteDriver" asp-route-id="@Model.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this driver?');" style="margin-top: 20px;">
     <button type="submit" class="btn btn-danger">Delete Driver</button>
     </form>
-
 }

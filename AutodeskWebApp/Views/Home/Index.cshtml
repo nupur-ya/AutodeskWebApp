@@ -1,22 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<style>
-    body {
-        background-image: url('@Url.Content("~/images/f1.jpg")');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-</style>
+
 
 <html>
     <div class="welcome-class text-center mt-4 flex-column d-flex justify-content-center align-items-center" style="height: 30vh;">
         <h1 class="display-4">Welcome</h1>
+
+        <!-- Date fields to get latest race info >-->
+        <!-- Gets entire race history if no dates selected >-->
         <form asp-controller="Home" asp-action="RaceList" method="get">
-            <label>Get Latest Race Data</label>    
+
+            <label>Get Latest Race Data</label>
+
             <label for="startDate">From:</label>
             <input type="date" id="startDate" name="startDate">
+
             <label for="endDate">To:</label>
             <input type="date" id="endDate" name="endDate">
             

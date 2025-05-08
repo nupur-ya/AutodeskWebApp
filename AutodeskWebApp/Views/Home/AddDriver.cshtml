@@ -3,13 +3,17 @@
 }
 
 @model AutodeskWebApp.Models.Data.Driver
+<!-- Overwrite background image for this page for better UX >-->
 <style>
     body {
         background-color: rgb(21, 21, 21);
+        background-image: none;
     }
 </style>
+
 <h1>@ViewData["Title"]</h1>
 
+<!-- Add Driver Form >-->
 <form method="post" asp-action="AddDriver">
     <div class="mt-4">  
         <label class="form-label">Name</label>

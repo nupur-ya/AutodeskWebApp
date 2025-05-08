@@ -1,38 +1,63 @@
+/*** Hide some table columns for mobile or smaller screens ***/
+@media only screen and (max-width: 800px) {
+	
+	.team-table td:nth-child(1),
+	.team-table th:nth-child(1),
+	.team-table td:nth-child(7),
+	.team-table th:nth-child(7),
+	.driver-table td:nth-child(4),
+	.driver-table th:nth-child(4),
+	.driver-table td:nth-child(5),
+	.driver-table th:nth-child(5),
+	.driver-table td:nth-child(6),
+	.driver-table th:nth-child(6) {
+		display: none;
+	}
+}
+
 table {
 	border-collapse: collapse;
 	table-layout: auto;
 	width: 100%;
 	word-wrap: break-word;
-  }
-  
-   td, th {
+}
+
+td,th {
 	border: 1px solid #ddd;
 	padding: 8px;
 	overflow-wrap: break-word;
 	font-size: clamp(12px, 1.5vw, 16px);
-  }
-  
-   tr:nth-child(even){background-color: #f2f2f2;}
-   tr:nth-child(odd){background-color: #dcd8d8;}
-  
-   tr:hover {background-color: #ffffff;}
+}
 
-   td {
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+	background-color: #dcd8d8;
+}
+
+tr:hover {
+	background-color: #ffffff;
+}
+
+td {
 	font-family: 'FormulaOneFont-Regular', sans-serif;
-   }
-  
-   th {
+}
+
+th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: left;
 	background-color: red;
 	color: white;
 	font-family: 'FormulaOneFont-Bold';
-  }
+}
 
-  .btn-primary{
+.btn-primary {
 	background-color: rgb(40, 38, 38);
-  }
-  .email{
+}
+
+.email {
 	text-transform: lowercase;
-  }
+}

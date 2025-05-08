@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/images/ferrari.jpg"
     },
     {
+      "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/icon.png",
+      "PackagePath": "staticwebassets/images/icon.png"
+    },
+    {
       "Id": "/Users/nupur/Desktop/Assessment/AutodeskWebApp/AutodeskWebApp/wwwroot/images/lewis.jpg",
       "PackagePath": "staticwebassets/images/lewis.jpg"
     },

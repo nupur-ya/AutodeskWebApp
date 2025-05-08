@@ -36,6 +36,9 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
     
+    /// <summary>
+    /// Get call to return the AddDriver View
+    /// </summary>
     [HttpGet]
     public IActionResult AddDriver()
     {
@@ -63,6 +66,9 @@ public class HomeController : Controller
                 ImageUrl = driver.ImageUrl,
                 DriverNumber = driver.DriverNumber
             };
+
+            // TODO: Validate driverID before adding to the database
+            // TODO: Redirect to error page if driverID doesn't exist
 
             await dbcontext.Drivers.AddAsync(driverObj);
             await dbcontext.SaveChangesAsync(); // Save changes to the database

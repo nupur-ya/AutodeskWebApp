@@ -31,9 +31,6 @@
       <li>
         <a href="#project-planning">Project Planning</a>
       </li>  
-      <li>
-        <a href="#project-planning">API Documentation</a>
-      </li>
   </ol>
 
 <!-- Portal Home Page -->
@@ -75,10 +72,13 @@ The user can access the following functionalities on the portal:
 
 ## Architecture
  <a align="center"> ![ProjectLayout](images/ProjectFiles.png)</a>
+ <br />
   The application follwos the Model-View-Controller acrchitecture, as seen in the project layout:
   1. **Controllers** - this folder contains the `HomeController` class, which is responsible for handling HTTP requests and communiates between Model and View.
   2. **Models** - represents the application's data structure, descibed in detail in the [C# Data Classes](#csharp-data-classes) section.
   4. **Views** - all the shared and individual HTML/CSS Razor views can be found in this folder.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Web Pages
   The portal is divided in 4 pages:

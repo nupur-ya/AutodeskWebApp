@@ -1,9 +1,12 @@
+
 <a id="readme-top"></a>
 <br />
+
+<!-- TITLE -->
+
 <div align="center">
-  <h1 align="center">Formula One Driver Portal</h1>    
-  <h3 align="center">Autodesk Development Task</h3>    
-  </p>
+  <h1 align="center">Formula One Driver Portal</h1>   
+  <h3 align="center">Autodesk Development Task</h3> 
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -22,16 +25,15 @@
         <li><a href="#data">Data</a></li>
           <ul>
             <li><a href="#sql-database">SQL Database</a></li>
-            <li><a href="#c#-data-classes">C# Data Classes</a></li>
-        </ul>
+            <li><a href="#csharp-data-classes">C# Data Classes</a></li>
+          </ul>
       </ul>
       <li>
         <a href="#project-planning">Project Planning</a>
       </li>  
       <li>
         <a href="#project-planning">API Documentation</a>
-      </li> 
-    </li>
+      </li>
   </ol>
 
 <!-- Portal Home Page -->
@@ -41,48 +43,55 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-This is a .NET Web Application that supports `Create`, `Read`, `Update` and `Delete` (CRUD) operations for Formula One Driver members data.
-The application is built using C#, HTML, CSS, SQL, following Model-View-Controller (MVC) architecture.
-The project is auto-deployed using GitHub Actions with Microsoft Azure.
+This is a .NET Web Application that supports `Create`, `Read`, `Update` and `Delete` (CRUD) operations for Formula One driver data.
+The application is built using C#, HTML, CSS, SQL, following the Model-View-Controller (MVC) architecture.
+The project is deployed using GitHub Actions to Microsoft Azure.
 <br />
-To explore the Formula One Driver Portal, simply click on the image above or the link [here](https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/).
+To explore the Formula One Driver Portal, simply click the image above or [visit the portal here](https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/).
 
-More details can be found in the <a href="#project-overview">Project Overview</a> section.
+More details can be found in the <a href="#project-overview">Project Overview</a> section below.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- PROJECT OVERVIEW -->
 ## Project Overview
-The Formula One Driver Portal is divided in four different [web pages](#web-pages), each with it's own features for accessing and updating data. Some data is stored in SQL database, some is retrieved from a public API while a small part of data is stored on Azure Blob Storage. The followinf sections will discuss each part of the project in depth.
+The Formula One Driver Portal is divided into four distinct [web pages](#web-pages), each with its own features for accessing and updating data. Some data is stored in SQL database, some is retrieved from a public API and a small portion is stored on Azure Blob Storage. The following sections provide a detailed breakdown of each part of the project.
 
   ### Tech Stack
-    - Web App - HTML, CSS, .NET
-    - Back End - SQL Server, Microsoft Azure
-    - Source Code and CI/CD - Github Actions
+  - **Web App** - HTML, CSS, .NET
+  - **Back End** - SQL Server, Microsoft Azure
+  - **Source Code and CI/CD** - GitHub Actions
+
 
 ## Functionality
 The user can access the following functionalities on the portal: 
-1. Drivers - Add Driver, View All Drivers, Delete Driver, Modify Driver Data, Find Driver using their Driver Number (doesn't have to be unique)
+1. **Drivers** - Add a new driver, view all drivers, delete driver, modify driver data, find a driver using their `Driver Number` (note: this number doesn't have to be unique).
     - Drivers data is stored in Azure SQL Database. All changes are saved directly to the database table.  
-2. Teams - View Team data, Find Team using Team Rank
+2. **Teams** - View team data and find team using `Team Rank`.
     - Team data is also saved in the Azure SQL database. There is no option to edit it from the portal.
-3. Races - View All Race Sessions so far, View Race Sessions in a time window
-    - This data is retrieved live from a public API [https://api.openf1.org/v1/sessions].
+3. **Races** - View all the race sessions or filter within a specific time window.
+    - This data is retrieved in real-time from a public API [https://api.openf1.org/v1/sessions].
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Architecture
-<image here>
+ <a align="center"> ![ProjectLayout](images/ProjectFiles.png)</a>
+  The application follwos the Model-View-Controller acrchitecture, as seen in the project layout:
+  1. **Controllers** - this folder contains the `HomeController` class, which is responsible for handling HTTP requests and communiates between Model and View.
+  2. **Models** - represents the application's data structure, descibed in detail in the [C# Data Classes](#csharp-data-classes) section.
+  4. **Views** - all the shared and individual HTML/CSS Razor views can be found in this folder.
 
  ### Web Pages
   The portal is divided in 4 pages:
  1. **Home**
+ ![F1 Driver Portal Home Page](images/HomePage.png)
     - This is the welcome screen. You'll find a `From` and `To` date prompts to filter latest race session data.
-    - `Filter` button click redirects you to Previous Races page.
+    - `Filter` button-click redirects you to `Previous Races` page.
     - If no dates are selected, it will automatically retrieve the entire json (sessions starting from 2023 till today).
 
  2. **Drivers**
+ ![DriversPage](images/DriversPage.png)
     - This page displays all drivers by default.
-    - You can find drivers by entering their Driver Number. If the Driver Number doesn't exist, it displays an empty table.
+    - You can find drivers by entering their `Driver Number` in the input field. If the `Driver Number` doesn't exist, it displays an empty table.
     - You can also `Add Driver` and `View All` drivers on this page.
     - In every row, you'll find an `Edit` button, which takes you to the `Edit Driver` page.
     - The `Edit Driver` page supports the following functionalities:
@@ -92,12 +101,14 @@ The user can access the following functionalities on the portal:
       - `Delete Driver` - This button is slightly hidden and you need to scroll all the way down to the page to see it. On click, shows you a prompt to confirm deletion and then deletes the driver. Also redirects to Drivers page.
 
  3. **Teams**
+  ![DriversPage](images/TeamsPage.png)
     - This page displays all teams by default.
     - You can filter teams by `Team Rank`.
     - There are only 10 teams in F1, hence 1 to 10 ranks. 0 shows all teams and any other number less than 0 and more than displays an empty table.
     - Clicking on the `driver image` in this table takes you to that driver's information page.
 
  4. **Previous Races**
+   ![DriversPage](images/PreviousRaces.png)
     - This page displays all the race sessions using the https://api.openf1.org/v1/sessions API.
     - The earliest available race is from 2023 and the latest is updated every weekend after the race.
     - You can filter the race from a `start date` to `end date`. Shows an empty table is there are no races in the date range.

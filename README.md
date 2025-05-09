@@ -42,13 +42,18 @@
 
 ## About The Project
 This is a .NET Web Application that supports `Create`, `Read`, `Update` and `Delete` (CRUD) operations for Formula One Driver members data.
-The application is built using C#, HTML, CSS, SQL Server, following Model-View-Controller (MVC) architecture.
-The web app is auto-deployed using Github actions with Microsoft Azure. More details can be found in the <a href="#project-overview">Project Overview</a> section.
+The application is built using C#, HTML, CSS, SQL, following Model-View-Controller (MVC) architecture.
+The project is auto-deployed using GitHub Actions with Microsoft Azure.
+<br />
+To explore the Formula One Driver Portal, simply click on the image above or the link [here](https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/).
+
+More details can be found in the <a href="#project-overview">Project Overview</a> section.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- PROJECT OVERVIEW -->
 ## Project Overview
+The Formula One Driver Portal is divided in four different [web pages](#web-pages), each with it's own features for accessing and updating data. Some data is stored in SQL database, some is retrieved from a public API while a small part of data is stored on Azure Blob Storage. The followinf sections will discuss each part of the project in depth.
 
   ### Tech Stack
     - Web App - HTML, CSS, .NET
@@ -75,8 +80,6 @@ The user can access the following functionalities on the portal:
     - `Filter` button click redirects you to Previous Races page.
     - If no dates are selected, it will automatically retrieve the entire json (sessions starting from 2023 till today).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
  2. **Drivers**
     - This page displays all drivers by default.
     - You can find drivers by entering their Driver Number. If the Driver Number doesn't exist, it displays an empty table.
@@ -101,23 +104,26 @@ The user can access the following functionalities on the portal:
     - It shows an error if you select `start date` later than `end date`.
     - A future `end date` is also accepted.
 
-  UI Restrictions
-      - The `DriverNumber`, `Find Team` fields only allow numbers.
-      - Edit and Add Driver form fields also allows only numbers in `Phone` and `Driver Number` fields.
-      - If you resize the browser window to really slim (to match mobile device), the Drivers page and Teams page tables shrink to only display the important columns.
+  > UI Restrictions
+        - The `DriverNumber`, `Find Team` fields only allow numbers.
+        - Edit and Add Driver form fields also allows only numbers in `Phone` and `Driver Number` fields.
+        - If you resize the browser window to really slim (to match mobile device), the Drivers page and Teams page tables shrink to only display the important columns.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
  ### Data
-  ##### SQL Database
+  #### SQL Database
   The SQL Database consists of two tables:
   1. Drivers Table
       The data in this table was populated once, using the `HomeController.InitDatabase()` by deserializing the json data from Open F1's public API: https://api.openf1.org/v1/drivers
-      Constraints:
+      <br />Constraints:
         - Each driver has a unique ID. 
-        - The DriverNumber can be same for multiple drivers.
-
+        - The DriverNumber can be same for multiple drivers. 
+        
+      <br />
+        
+      `Drivers`  
       | Column | Description |
       | --- | --- |
       [Id]               |   UNIQUEIDENTIFIER NOT NULL
@@ -132,6 +138,8 @@ The user can access the following functionalities on the portal:
 
   2. Teams Table
       This table contains information about the 10 F1 teams of 2024 season. The data in this table was populated manually.
+      <br />
+      `Teams`
       | Column | Description |
       | --- | --- |
       [Id]              |   UNIQUEIDENTIFIER NOT NULL
@@ -157,12 +165,12 @@ The user can access the following functionalities on the portal:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Project Planning
-I planned the project exactly how I plan my sprint tasks. The problem statement broken down into smaller tasks and tracked in this Google Document.
+I planned the project exactly how I plan my sprint tasks. The problem statement broken down into smaller tasks and tracked in [this](https://docs.google.com/document/d/1U_YXLZXRqzGaEwI18pGToT0tDoPowE4YB4wJekQ7rlA/edit?usp=sharing) Google Document.
 The tasks were sorted in decreasing priority order and were updated if an unforeseen issue or feature came up.
 I tracked my task progress using a checklist (similat to a Sprint board). 
 
 Some tasks were stretch goals - marked as *Bonus*.
-> Best practice - I add comment summary to my Github commits that contain a big change set. This summary are helpful when create release notes and detailed Pull Request descriptions.
+> Best practice - I add comment summary to my Github commits that contain a large change-set. The summary is helpful for creating release notes and detailed Pull Request descriptions.
 
 
 Future Improvements
@@ -171,20 +179,5 @@ Future Improvements
   - Edit Team and Add Team features.
   - More test cases to cover model controller.
   - Fix the Github CI/CD test actions.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## API Documentation 
-
-
-
-
-
-
-
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

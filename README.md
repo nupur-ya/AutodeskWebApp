@@ -121,9 +121,9 @@ The user can access the following functionalities on the portal:
     - A future `end date` is also accepted.
 
   > UI Restrictions
-        - The `DriverNumber`, `Find Team` fields only allow numbers.
-        - Edit and Add Driver form fields also allows only numbers in `Phone` and `Driver Number` fields.
-        - If you resize the browser window to really slim (to match mobile device), the Drivers page and Teams page tables shrink to only display the important columns.
+    - The `DriverNumber`, `Find Team` fields only allow numbers.<br />
+    - Edit and Add Driver form fields also allows only numbers in `Phone` and `Driver Number` fields.<br />
+    - If you resize the browser window to really slim (to match mobile device), the Drivers page and Teams page tables shrink to only display the important columns.<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ The user can access the following functionalities on the portal:
  ## Data
   ### SQL Database
   The SQL Database consists of two tables:
-  1. Drivers Table
+  1. Drivers Table: 
       The data in this table was populated once, using the `HomeController.InitDatabase()` by deserializing the json data from Open F1's public API: https://api.openf1.org/v1/drivers
       <br />Constraints:
         - Each driver has a unique ID. 
@@ -154,7 +154,9 @@ The user can access the following functionalities on the portal:
 
   2. Teams Table
       This table contains information about the 10 F1 teams of 2024 season. The data in this table was populated manually.
+
       <br />
+      
       `Teams`
       | Column | Description |
       | --- | --- |
@@ -171,12 +173,13 @@ The user can access the following functionalities on the portal:
     The team car images are stored on my Azure Blob Storage and their SAS token URIs are stored in the `Teams` database.
 
   ### C# Data Classes
-  The .Net project has five data classes:
-      1. Driver - used to map driver data from the database. Same fields as the database.
-      2. JsonDriverData - this was used to deserialize data from the drivers API, which was then used to populate the SQL `Drivers` table.
-      3. Race - used for race session data. The API json data is deserialized into Race object.
-      4. Team - this is same as the Team SQL table fields.
-      5. TeamView - the `Team` object data is converted to `TeamView` object for displaying on the Teams page.
+  The .Net project has five data classes:<br />
+
+    1. Driver - used to map driver data from the database. Same fields as the database.
+    2. JsonDriverData - this was used to deserialize data from the drivers API, which was then used to populate the SQL `Drivers` table.
+    3. Race - used for race session data. The API json data is deserialized into Race object.
+    4. Team - this is same as the Team SQL table fields.
+    5. TeamView - the `Team` object data is converted to `TeamView` object for displaying on the Teams page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,7 +222,7 @@ Future Improvements
 
   - Find
     - Filtering team and/or driver with a negative or a random number.
-    
+
   - UI
     - Decreasing the browser width on Desktop should hide columns on `Drivers` and `Teams` table to only show important columns.
 
@@ -232,5 +235,7 @@ Future Improvements
   > Known Limitations
       - The UI is not mobile-friendly. Some elements may appear misaligned.
       - The `Delete Driver` button is located at the bottom of the screen, which can be easily missed.
+      - The Race Sessions API sometime takes long to respond. If you see server errors, page refresh should fix it.
+      - Team car images may not load on first try.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -6,11 +6,6 @@
   </p>
 </div>
 
-
-[![F1 Driver Portal Home Page](images/HomePage.png)](https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/)
-
-
-
 <!-- TABLE OF CONTENTS -->
 
   <h2>Table of Contents</h2>
@@ -35,16 +30,15 @@
       </li>  
       <li>
         <a href="#project-planning">API Documentation</a>
-      </li>  
-      <li>
-        <a href="#references">References</a>
-      </li>
+      </li> 
     </li>
   </ol>
 
+<!-- Portal Home Page -->
+[![F1 Driver Portal Home Page](images/HomePage.png)](https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/)
+
 
 <!-- ABOUT THE PROJECT -->
-
 
 ## About The Project
 This is a .NET Web Application that supports `Create`, `Read`, `Update` and `Delete` (CRUD) operations for Formula One Driver members data.

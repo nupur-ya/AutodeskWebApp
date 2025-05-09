@@ -120,7 +120,7 @@ The user can access the following functionalities on the portal:
     - It shows an error if you select `start date` later than `end date`.
     - A future `end date` is also accepted.
 
-  > UI Restrictions
+  > UI Restrictions: <br />
     - The `DriverNumber`, `Find Team` fields only allow numbers.<br />
     - Edit and Add Driver form fields also allows only numbers in `Phone` and `Driver Number` fields.<br />
     - If you resize the browser window to really slim (to match mobile device), the Drivers page and Teams page tables shrink to only display the important columns.<br />
@@ -172,14 +172,13 @@ The user can access the following functionalities on the portal:
   > All the driver headshot images are public URLs, stored as `ImageUrl` in the `Drivers` database.
     The team car images are stored on my Azure Blob Storage and their SAS token URIs are stored in the `Teams` database.
 
-  ### C# Data Classes
+  ## C# Data Classes
   The .Net project has five data classes:<br />
-
-    1. Driver - used to map driver data from the database. Same fields as the database.
-    2. JsonDriverData - this was used to deserialize data from the drivers API, which was then used to populate the SQL `Drivers` table.
-    3. Race - used for race session data. The API json data is deserialized into Race object.
-    4. Team - this is same as the Team SQL table fields.
-    5. TeamView - the `Team` object data is converted to `TeamView` object for displaying on the Teams page.
+  1. Driver - used to map driver data from the database. Same fields as the database.
+  2. JsonDriverData - this was used to deserialize data from the drivers API, which was then used to populate the SQL `Drivers` table.
+  3. Race - used for race session data. The API json data is deserialized into Race object.
+  4. Team - this is same as the Team SQL table fields.
+  5. TeamView - the `Team` object data is converted to `TeamView` object for displaying on the Teams page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,10 +231,10 @@ Future Improvements
     - Laptop - 13" MacBook Air
     - Mobile - iPhone 16 Pro 
 
-  > Known Limitations
-      - The UI is not mobile-friendly. Some elements may appear misaligned.
-      - The `Delete Driver` button is located at the bottom of the screen, which can be easily missed.
-      - The Race Sessions API sometime takes long to respond. If you see server errors, page refresh should fix it.
-      - Team car images may not load on first try.
+  ## Known Limitations<br />
+  - The UI is not mobile-friendly. Some elements may appear misaligned.
+  - The `Delete Driver` button is located at the bottom of the screen, which can be easily missed.
+  - The Race Sessions API sometime takes long to respond. If you see server errors, page refresh should fix it.
+  - Team car images may not load on first try.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

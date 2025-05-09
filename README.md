@@ -76,8 +76,12 @@ The user can access the following functionalities on the portal:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Architecture
- <a align="center"> ![ProjectLayout](images/ProjectFiles.png)</a>
+<div align="center">
+  <img src="images/ProjectFiles.png" alt="Project Layout" />
+</div>
+
  <br />
+ 
   The application follwos the Model-View-Controller acrchitecture, as seen in the project layout:
   1. **Controllers** - this folder contains the `HomeController` class, which is responsible for handling HTTP requests and communiates between Model and View.
   2. **Models** - represents the application's data structure, descibed in detail in the [C# Data Classes](#csharp-data-classes) section.
@@ -203,7 +207,7 @@ Future Improvements
 
 # Notes For Testing
   I tried to test all possible scenarios and edge cases. Please note that there is no user authentication at the moment, which gives everyone access to add and delete to the database directly.
-  Here's a list of suggested test scenarios (happy path and edge cases): <br />
+  Here's a list of suggested test scenarios (happy path and edge cases) and known limitations: <br />
   
   - Add
       - Add a driver with all valid inputs. 
@@ -231,7 +235,7 @@ Future Improvements
     - Laptop - 13" MacBook Air
     - Mobile - iPhone 16 Pro 
 
-  ## Known Limitations<br />
+  ### Known Limitations<br />
   - The UI is not mobile-friendly. Some elements may appear misaligned.
   - The `Delete Driver` button is located at the bottom of the screen, which can be easily missed.
   - The Race Sessions API sometime takes long to respond. If you see server errors, page refresh should fix it.

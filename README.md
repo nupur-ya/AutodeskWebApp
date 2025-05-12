@@ -59,6 +59,12 @@ More details can be found in the <a href="#project-overview">Project Overview</a
 # Project Overview
 The Formula One Driver Portal is divided into four distinct [web pages](#web-pages), each with its own features for accessing and updating data. Some data is stored in SQL database, some is retrieved from a public API and a small portion is stored on Azure Blob Storage. The following sections provide a detailed breakdown of each part of the project.
 
+  ## APIs ***[Added May 12]***
+  - View Driver API: https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driverID} 
+  - Add Driver API: https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driver}
+  - Delete Driver API: https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driverID}
+
+
   ### Tech Stack
   - **Web App** - HTML, CSS, .NET
   - **Back End** - SQL Server, Microsoft Azure

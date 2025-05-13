@@ -53,11 +53,11 @@ public class DriverController : Controller
             };
 
             await dbcontext.Drivers.AddAsync(driverObj);
-            await dbcontext.SaveChangesAsync(); // Save changes to the database
+            var affectedRows = await dbcontext.SaveChangesAsync(); // Save changes to the database
             
 
             // Confirm addition to database and return status
-            return CreatedAtAction(nameof(Find), new { driverId = driverObj.Id });
+            return affectedRows > 0 ? Ok(driverObj.Id) : StatusCode(500);
         }
         catch (Exception ex)
         {

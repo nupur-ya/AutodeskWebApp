@@ -62,19 +62,30 @@ The Formula One Driver Portal is divided into four distinct [web pages](#web-pag
   ## APIs ***[Added May 12th]***
   The following APIs are working on local host (as seen in screenshots below). Fixed on live website link as well. The following APIs can be tested on Postman
   - View Driver API: `https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driverID}`
-
+    - `[HttpGet("{driverId}")]` request to access the driver details.
+    - Returns `200 OK` and driver object status code if the driver exists.
+    - Returns `404 Not Found` status code if the driverID is not found in the database.
+    - Returns `422 Unprocessable Entity` if the driverID is null or invalid.
+    - Returns `500` error is any exception occurs.
 
       ![Add Driver](images/GetDriver.png)
 
 
   - Add Driver API:  `https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driver}`
-
+    - `[HttpPost]` request to add a driver.
+    - Returns `409 Conflict Error` status code if a driver with same Name and DriverNumber already exists.
+    - Returns `201 Created` status code and the new DriverID GUID if the driver is successfuly created.
+    - Returns `500` error is any exception occurs.
 
       ![Add Driver](images/AddDriverPostman.png)
 
 
   - Delete Driver API: `https://f1driversportal-bpbzhjebbfahe5fj.canadacentral-01.azurewebsites.net/driver/{driverID}`
-
+      - `HttpDelete("{driverId}")` request to delete a driver using their driverID.
+      - Returns `404 Not Found` status code if the driver ID not found in the database.
+      - Returns `200 OK` status code if deletion is successful.
+      - Returns `422 Unprocessable Entity` if the driverID GUID is null or invalid.
+      - Returns `500` error is any exception occurs.
 
       ![Add Driver](images/DeleteDriver.png)
 
